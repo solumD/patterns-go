@@ -6,7 +6,7 @@ import "fmt"
 type OzonFactory struct {
 }
 
-func NewOzonFactory() OzonFactory {
+func NewOzonFactory() Factory {
 	return OzonFactory{}
 }
 

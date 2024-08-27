@@ -6,7 +6,7 @@ import "fmt"
 type YandexFactory struct {
 }
 
-func NewYandexFactory() YandexFactory {
+func NewYandexFactory() Factory {
 	return YandexFactory{}
 }
 
