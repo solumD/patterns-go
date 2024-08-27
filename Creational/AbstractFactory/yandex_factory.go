@@ -2,6 +2,7 @@ package abstractfactory
 
 import "fmt"
 
+// Конкретная фабрика Яндекс
 type YandexFactory struct {
 }
 
@@ -22,6 +23,7 @@ func (o YandexFactory) GetStaff(q int) Staff {
 	}
 }
 
+// Конкретный продукт А
 type YandexApp struct {
 	Users int
 	Gain  int
@@ -35,6 +37,7 @@ func (a YandexApp) PrintGain() {
 	fmt.Printf("[Yandex App] Gain: %d\n", a.Gain)
 }
 
+// Конретный продукт Б
 type YandexStaff struct {
 	Quantity int
 }

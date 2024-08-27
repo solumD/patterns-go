@@ -2,6 +2,7 @@ package abstractfactory
 
 import "fmt"
 
+// Конкретная фабрика Озон
 type OzonFactory struct {
 }
 
@@ -22,6 +23,7 @@ func (o OzonFactory) GetStaff(q int) Staff {
 	}
 }
 
+// Конкретный продукт А
 type OzonApp struct {
 	Users int
 	Gain  int
@@ -35,6 +37,7 @@ func (a OzonApp) PrintGain() {
 	fmt.Printf("[Ozon App] Gain: %d\n", a.Gain)
 }
 
+// Конкретный продукт Б
 type OzonStaff struct {
 	Quantity int
 }
