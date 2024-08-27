@@ -1,7 +1,9 @@
 package main
 
-import abstractfactory "github.com/solumD/patterns-go/Creational/AbstractFactory"
+import (
+	factorymethod "github.com/solumD/patterns-go/Creational/FactoryMethod"
+)
 
 func main() {
-	abstractfactory.AbstractFactoryExample()
+	factorymethod.FactoryMethodExample()
 }
