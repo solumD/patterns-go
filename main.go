@@ -1,9 +1,9 @@
 package main
 
 import (
-	singleton "github.com/solumD/patterns-go/Creational/Singleton"
+	builder "github.com/solumD/patterns-go/Creational/Builder"
 )
 
 func main() {
-	singleton.SingletonExample()
+	builder.BuilderExample()
 }
