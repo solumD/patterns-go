@@ -1,9 +1,9 @@
 package main
 
 import (
-	factorymethod "github.com/solumD/patterns-go/Creational/FactoryMethod"
+	singleton "github.com/solumD/patterns-go/Creational/Singleton"
 )
 
 func main() {
-	factorymethod.FactoryMethodExample()
+	singleton.SingletonExample()
 }
