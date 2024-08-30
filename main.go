@@ -1,9 +1,9 @@
 package main
 
 import (
-	builder "github.com/solumD/patterns-go/Creational/Builder"
+	prototype "github.com/solumD/patterns-go/Creational/Prototype"
 )
 
 func main() {
-	builder.BuilderExample()
+	prototype.PrototypeExample()
 }
