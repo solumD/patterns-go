@@ -1,9 +1,9 @@
 package main
 
 import (
-	prototype "github.com/solumD/patterns-go/Creational/Prototype"
+	chainofresponsibility "github.com/solumD/patterns-go/Behavioral/ChainOfResponsibility"
 )
 
 func main() {
-	prototype.PrototypeExample()
+	chainofresponsibility.ChainOfResponsibilityExample()
 }
