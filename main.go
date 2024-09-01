@@ -1,9 +1,9 @@
 package main
 
 import (
-	chainofresponsibility "github.com/solumD/patterns-go/Behavioral/ChainOfResponsibility"
+	iterator "github.com/solumD/patterns-go/Behavioral/Iterator"
 )
 
 func main() {
-	chainofresponsibility.ChainOfResponsibilityExample()
+	iterator.IteratorExample()
 }
