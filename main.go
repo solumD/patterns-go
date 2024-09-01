@@ -1,9 +1,9 @@
 package main
 
 import (
-	mediator "github.com/solumD/patterns-go/Behavioral/Mediator"
+	observer "github.com/solumD/patterns-go/Behavioral/Observer"
 )
 
 func main() {
-	mediator.MediatorExample()
+	observer.ObserverExample()
 }
