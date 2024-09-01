@@ -24,6 +24,7 @@ func (p *NewsPublisher) SetState(s string) {
 	p.State = s
 }
 
+// Уведомление подписчиков о состоянии
 func (p *NewsPublisher) Notify() {
 	for _, o := range p.Observers {
 		o.Update(p.State)
