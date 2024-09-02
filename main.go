@@ -1,9 +1,9 @@
 package main
 
 import (
-	strategy "github.com/solumD/patterns-go/Behavioral/Strategy"
+	memento "github.com/solumD/patterns-go/Behavioral/Memento"
 )
 
 func main() {
-	strategy.StrategyExample()
+	memento.MementoExample()
 }
