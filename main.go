@@ -1,9 +1,7 @@
 package main
 
-import (
-	memento "github.com/solumD/patterns-go/Behavioral/Memento"
-)
+import adapter "github.com/solumD/patterns-go/Structural/Adapter"
 
 func main() {
-	memento.MementoExample()
+	adapter.AdapterExample()
 }
