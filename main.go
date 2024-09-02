@@ -1,9 +1,9 @@
 package main
 
 import (
-	observer "github.com/solumD/patterns-go/Behavioral/Observer"
+	strategy "github.com/solumD/patterns-go/Behavioral/Strategy"
 )
 
 func main() {
-	observer.ObserverExample()
+	strategy.StrategyExample()
 }
