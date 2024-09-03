@@ -1,7 +1,9 @@
 package main
 
-import adapter "github.com/solumD/patterns-go/Structural/Adapter"
+import (
+	proxy "github.com/solumD/patterns-go/Structural/Proxy"
+)
 
 func main() {
-	adapter.AdapterExample()
+	proxy.ProxyExample()
 }
