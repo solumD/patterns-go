@@ -1,9 +1,9 @@
 package main
 
 import (
-	proxy "github.com/solumD/patterns-go/Structural/Proxy"
+	decorator "github.com/solumD/patterns-go/Structural/Decorator"
 )
 
 func main() {
-	proxy.ProxyExample()
+	decorator.DecoratorExample()
 }
