@@ -1,9 +1,9 @@
 package main
 
 import (
-	bridge "github.com/solumD/patterns-go/Structural/Bridge"
+	composite "github.com/solumD/patterns-go/Structural/Composite"
 )
 
 func main() {
-	bridge.BridgeExample()
+	composite.CompositeExample()
 }
