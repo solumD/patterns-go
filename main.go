@@ -1,9 +1,9 @@
 package main
 
 import (
-	decorator "github.com/solumD/patterns-go/Structural/Decorator"
+	bridge "github.com/solumD/patterns-go/Structural/Bridge"
 )
 
 func main() {
-	decorator.DecoratorExample()
+	bridge.BridgeExample()
 }
