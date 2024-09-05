@@ -1,9 +1,9 @@
 package main
 
 import (
-	composite "github.com/solumD/patterns-go/Structural/Composite"
+	facade "github.com/solumD/patterns-go/Structural/Facade"
 )
 
 func main() {
-	composite.CompositeExample()
+	facade.FacadeExample()
 }
